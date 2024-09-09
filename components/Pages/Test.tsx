@@ -17,8 +17,8 @@ export default  props =>
       <img src={book.imageLink} style={{width:150 ,gap:10,minWidth:150,objectFit:"fill", height:200, borderRadius:10}} />
   
       </f-cc>
-      {props.state.cart.includes(props.book.title)?<img src="https://cdn.turing.team/research/23/check.webp.png" style={{width:50,height:50,objectFit:"contain",position:"absolute",bottom:3,left:105}}/>:
-      <img src="https://cdn.turing.team/research/23/cart.webp" style={{width:50,height:50,objectFit:"contain",position:"absolute",bottom:1,left:110}}/>
+      {props.state.cart.includes(props.book.title)?<img src="https://cdn.ituring.ir/research/23/check.webp.png" style={{width:50,height:50,objectFit:"contain",position:"absolute",bottom:3,left:105}}/>:
+      <img src="https://cdn.ituring.ir/research/23/cart.webp" style={{width:50,height:50,objectFit:"contain",position:"absolute",bottom:1,left:110}}/>
       }
       <f-csb>
         <f-13 style={{fontSize:12 ,position:"absolute" , left:10 , top:220}}>{props.book.title}</f-13>

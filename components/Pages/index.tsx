@@ -65,28 +65,28 @@ const Page: PageEl = (props, state, refresh, getProps) => {
        }}>
 
        Add To Cart
-       <img src="https://cdn.turing.team/research/23/cart.webp" style={{width:30,height:30,objectFit:"contain"}}/>
+       <img src="https://cdn.ituring.ir/research/23/cart.webp" style={{width:30,height:30,objectFit:"contain"}}/>
       </g-b>}
       
 
       
       </WindowFloat>:null}
-      <Window title="Shopping Cart" style={{ height: 150, margin: 10, width: "calc(100% - 10px)",backgroundImage:'url(https://cdn.turing.team/research/23/bookpattern.webp)' }}>
+      <Window title="Shopping Cart" style={{ height: 150, margin: 10, width: "calc(100% - 10px)",backgroundImage:'url(https://cdn.ituring.ir/research/23/bookpattern.webp)' }}>
     
        <f-cse style={{marginTop:35}}>
        
         <f-cc style={{borderRadius: 20,width:200 , height:50 ,backgroundColor:"rgba(208, 212, 189, 0.7)",WebkitBoxShadow:"3px 3px #ADB09D"}}>
-        <img src="https://cdn.turing.team/research/23/dollar.webp" style={{width:50,height:50,bottom:5,left:110}}/>Total Price : "{totalprice}"
+        <img src="https://cdn.ituring.ir/research/23/dollar.webp" style={{width:50,height:50,bottom:5,left:110}}/>Total Price : "{totalprice}"
           
         </f-cc>
        <f-cc style={{borderRadius: 20,width:200 , height:50 ,backgroundColor:"rgba(208, 212, 189, 0.7)",WebkitBoxShadow:"3px 3px #ADB09D"}}>
-        <img src="https://cdn.turing.team/research/23/books.webp" style={{width:50,height:50,bottom:5,left:110}}/>
+        <img src="https://cdn.ituring.ir/research/23/books.webp" style={{width:50,height:50,bottom:5,left:110}}/>
         "{state.cart.length}" Books are in your cart
        </f-cc>
        </f-cse>
       </Window>
       <Window title={name} style={{ minHeight: 200, margin: 10, width: "calc(100% - 10px)" }}>
-        <w-cse style={{gap:10  , backgroundImage:'url(https://cdn.turing.team/research/23/bookpattern.webp)'}}>
+        <w-cse style={{gap:10  , backgroundImage:'url(https://cdn.ituring.ir/research/23/bookpattern.webp)'}}>
         
           {props.books.map(book=>{
             return <Test 
@@ -120,7 +120,7 @@ export async function getServerSideProps(context) {
   let books = await global.db.collection("books").find({}).toArray()
   for(let book of books)
     {
-      book.imageLink = "https://cdn.turing.team/research/ex/books/"+ book.imageLink
+      book.imageLink = "https://cdn.ituring.ir/research/ex/books/"+ book.imageLink
     }
     console.log(books)
     
