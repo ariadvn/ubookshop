@@ -19,12 +19,12 @@ You can start editing the page by modifying `components/Pages/index.tsx`. The pa
 <br/>
 <img src="https://github.com/ariadvn/ubookshop/blob/main/wholephot.webp?raw=true" />
 <br/>
+<br/>
 you can add books to your cart by clicking on them and then pressing the Add To Cart.
 <br/>
 <br/>
 <br/>
 <img src="https://github.com/ariadvn/ubookshop/blob/main/add.webp?raw=true" />
-<br/>
 <br/>
 <br/>
 If you wish, you can remove the books that you previously added to your cart by pressing Remove Item.
