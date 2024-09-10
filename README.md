@@ -25,7 +25,7 @@ you can add books to your cart by clicking on them and pressing the Add To Cart.
 <br/>
 <img src="https://github.com/ariadvn/ubookshop/blob/main/add.webp?raw=true" />
 <br/>
-If you'd like, you can remove the books that you previously added to your cart by pressing Remove Item.
+If you'd like, you can remove the books that you previously added to your cart by pressing Remove This Item.
 <br/>
 <br/>
 <br/>
