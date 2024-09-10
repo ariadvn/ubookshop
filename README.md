@@ -14,7 +14,7 @@ yarn dev -p 2000
 
 Open [https://xtal.ir/userv](https://xtal.ir/userv) with your browser to see the result.
 
-You can edit the page by modifying `components/Pages/index.tsx`. The page auto-updates as you edit the file.
+You can edit the page by modifying `components/Pages/index.tsx` and `components/Pages/Test.tsx`. The page auto-updates as you edit the file.
 <br/>
 <br/>
 <img src="https://github.com/ariadvn/ubookshop/blob/main/wholephot.webp?raw=true" />
